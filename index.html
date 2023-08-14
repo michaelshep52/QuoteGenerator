@@ -1,0 +1,33 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+        <header>A Quote to Remember</header>
+        <div class="content">
+            <h1>
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote"></span>
+            <i class="fas fa-quote-right"></i>
+            </h1>
+            <p class="author" id="author"></p>
+            <hr/>
+        </div>
+        <div class="buttons">
+            <div class="features">
+                <ul>
+                    <li><a class="twitter" id="tweet" href="https://twitter.com/intent/tweet?text=Greetings" data-size="large" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a></li>
+                </ul>
+                <button class="next" onclick="getNewQuote()">Next quote</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/c46b4c3448.js" crossorigin="anonymous"></script>
+  </body>
+</html>
+  
